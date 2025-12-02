@@ -246,7 +246,7 @@ class NGBoostPoisson(Model):
         self.model = NGBRegressor(
             Dist=Poisson,
             natural_gradient=True,
-            n_estimators=50,
+            n_estimators=100,
             learning_rate=0.1,
             minibatch_frac=0.2, 
             col_sample=1.0,

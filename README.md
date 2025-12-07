@@ -12,10 +12,3 @@ exports Kaggle-ready submission files.
 	- `sample_submission_uncertainty.csv`
 
 2. Open `main.ipynb` in Jupyter / VS Code and run the cells from top to bottom.
-
-3. The notebook will prepare features, train the models, and write submissions to the `submissions/` folder:
-	- `submission_accuracy.csv`
-	- `submission_uncertainty_dist_lgbm.csv`
-	- `submission_uncertainty_ngb.csv`
-
-No extra configuration is needed beyond installing the Python dependencies listed in the notebook imports.
